@@ -13,7 +13,7 @@ import net.fortuna.ical4j.model.ValidationException;
 public class FileData {
 		
 	
-	public Calendar readFile(File file){
+	public static Calendar readFile(File file){
 		FileInputStream fin;
 		Calendar calendar = null;
 		try {
@@ -31,7 +31,7 @@ public class FileData {
 		return calendar;
 	}
 	
-	public boolean writeFile(Calendar calendar,File file){
+	public static boolean writeFile(Calendar calendar,File file){
 		try {
 			FileOutputStream fout = new FileOutputStream(file);
 			CalendarOutputter outputter = new CalendarOutputter();
@@ -49,7 +49,7 @@ public class FileData {
 			e.printStackTrace();
 			return false;
 		}
-		
+
 		return true;
 	}
 }
