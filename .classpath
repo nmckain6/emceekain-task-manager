@@ -5,5 +5,8 @@
 	<classpathentry kind="lib" path="lib/joda-time-2.9.2.jar"/>
 	<classpathentry kind="lib" path="lib/miglayout-4.0.jar"/>
 	<classpathentry kind="lib" path="lib/miglayout-4.0-swing.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="lib/ical4j-2.0-beta1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
